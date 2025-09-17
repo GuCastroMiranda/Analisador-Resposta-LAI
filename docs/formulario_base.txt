@@ -1,0 +1,61 @@
+Formulário de Análise
+
+1. Tipo de Decisão:
+( ) Acesso Concedido
+( ) Acesso Negado
+( ) Acesso Parcialmente Concedido
+( ) Informação Inexistente
+( ) Não se trata de solicitação de informação
+( ) Órgão não tem competência para responder sobre o assunto
+( ) Pergunta duplicada/repetida
+
+2. Especificação da Decisão:
+
+👉 Preencher apenas a seção correspondente:
+
+2.1 Caso de Acesso Concedido:
+( ) Comunicada necessidade de pagamento de custos de postagem e/ou reprodução
+( ) Concedido acesso a sistema corporativo para consulta da informação
+( ) Data, hora e local para consulta agendados
+( ) Informações enviadas pelo correio
+( ) Informações enviadas por e-mail
+( ) Orientação sobre como encontrar a informação solicitada na internet ou em publicações existentes
+( ) Resposta solicitada inserida no Fala.BR
+
+2.2 Caso de Acesso Negado:
+( ) Dados pessoais
+( ) Informação sigilosa classificada conforme a Lei 12.527/2011
+( ) Informação sigilosa de acordo com legislação específica
+( ) Pedido desproporcional ou desarrazoado
+( ) Pedido exige tratamento adicional de dados
+( ) Pedido genérico
+( ) Pedido incompreensível
+( ) Processo decisório em curso
+
+2.3 Caso de Acesso Parcialmente Concedido:
+( ) Parte da informação contém dados pessoais
+( ) Parte da informação demandará mais tempo para produção
+( ) Parte da informação é de competência de outro órgão/entidade
+( ) Parte da informação é sigilosa de acordo com legislação específica
+( ) Parte da informação é sigilosa e classificada conforme a Lei 12.527/2011
+( ) Parte da informação inexistente
+( ) Parte do pedido é desproporcional ou desarrazoado
+( ) Parte do pedido é genérico
+( ) Parte do pedido é incompreensível
+( ) Parte do pedido exige tratamento adicional de dados
+( ) Processo decisório em curso
+
+3. Detalhamento (quando aplicável):
+👉 Se for negado ou parcialmente concedido, justificar aqui a motivação, mencionar base legal ou situação fática (ex: documento não existe, sigilo legal, processo em curso etc.).
+
+4. Área responsável pela resposta:
+
+5. Tag: Sigla da unidade organizacional responsável pela resposta
+
+6. Autoridade para recurso de 1ª instância:
+Diretor da área responsável
+
+7. Restrição de Conteúdo:
+Este pedido ou sua resposta contém informações sujeitas à restrição de acesso, conforme a Lei 12.527/2011?
+( ) Sim
+( ) Não
