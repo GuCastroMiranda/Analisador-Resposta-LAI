@@ -1,13 +1,9 @@
 Running build in Washington, D.C., USA (East) – iad1
 Build machine configuration: 2 cores, 8 GB
-Cloning github.com/GuCastroMiranda/Analisador-Resposta-LAI (Branch: master, Commit: 09cf12d)
-Skipping build cache, deployment was triggered without cache.
-Cloning completed: 3.060s
+Cloning github.com/GuCastroMiranda/Analisador-Resposta-LAI (Branch: master, Commit: 4e02fc6)
+Cloning completed: 3.042s
+Restored build cache from previous deployment (GbNkiGa8t8SQ9cVm2awAUKbCjokm)
 Running "vercel build"
 Vercel CLI 48.0.2
-Running "install" command: `npm install`...
-added 7 packages, removed 1 package, changed 2 packages, and audited 448 packages in 2s
-99 packages are looking for funding
-  run `npm fund` for details
-found 0 vulnerabilities
-> web@0.0.0 build
+WARN! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
+Error: Build "src" is "apps/web/vite.config.ts" but expected "package.json" or "build.sh"
