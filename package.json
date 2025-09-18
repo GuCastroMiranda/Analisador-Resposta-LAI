@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run dev -w web",
     "dev:api": "npm run dev -w api",
-    "build": "npx vite build apps/web"
+    "build": "chmod +x ./node_modules/.bin/vite && npx vite build apps/web"
   },
   "keywords": [],
   "author": "",
