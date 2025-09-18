@@ -1,9 +1,34 @@
-Running build in Washington, D.C., USA (East) – iad1
-Build machine configuration: 2 cores, 8 GB
-Cloning github.com/GuCastroMiranda/Analisador-Resposta-LAI (Branch: master, Commit: 4e02fc6)
-Cloning completed: 3.042s
-Restored build cache from previous deployment (GbNkiGa8t8SQ9cVm2awAUKbCjokm)
-Running "vercel build"
-Vercel CLI 48.0.2
-WARN! Due to `builds` existing in your configuration file, the Build and Development Settings defined in your Project Settings will not apply. Learn More: https://vercel.link/unused-build-settings
-Error: Build "src" is "apps/web/vite.config.ts" but expected "package.json" or "build.sh"
+23:48:24.347 Running build in Washington, D.C., USA (East) – iad1
+23:48:24.348 Build machine configuration: 2 cores, 8 GB
+23:48:24.365 Cloning github.com/GuCastroMiranda/Analisador-Resposta-LAI (Branch: master, Commit: 0e85d83)
+23:48:24.373 Skipping build cache, deployment was triggered without cache.
+23:48:27.547 Cloning completed: 3.182s
+23:48:32.045 Running "vercel build"
+23:48:32.719 Vercel CLI 48.0.2
+23:48:33.392 Running "install" command: `npm i --force`...
+23:48:33.677 npm warn using --force Recommended protections disabled.
+23:48:35.655 
+23:48:35.655 added 7 packages, removed 1 package, changed 2 packages, and audited 448 packages in 2s
+23:48:35.656 
+23:48:35.656 99 packages are looking for funding
+23:48:35.656   run `npm fund` for details
+23:48:35.657 
+23:48:35.657 found 0 vulnerabilities
+23:48:35.801 Running "npm run build"
+23:48:35.915 
+23:48:35.915 > workshop@1.0.0 build
+23:48:35.915 > npm run build -w web
+23:48:35.915 
+23:48:36.048 
+23:48:36.049 > web@0.0.0 build
+23:48:36.049 > vite build
+23:48:36.049 
+23:48:36.055 sh: line 1: /vercel/path1/node_modules/.bin/vite: Permission denied
+23:48:36.061 npm error Lifecycle script `build` failed with error:
+23:48:36.061 npm error code 126
+23:48:36.061 npm error path /vercel/path1/apps/web
+23:48:36.061 npm error workspace web@0.0.0
+23:48:36.062 npm error location /vercel/path1/apps/web
+23:48:36.062 npm error command failed
+23:48:36.062 npm error command sh -c vite build
+23:48:36.075 Error: Command "npm run build" exited with 126
