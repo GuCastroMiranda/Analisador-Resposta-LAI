@@ -40,6 +40,8 @@ app.post('/api/analyze', async (req: express.Request, res: express.Response) => 
     const prompt = `
       Você é um analista da Lei de Acesso à Informação (LAI) no Ministério da Educação (MEC). Sua tarefa é analisar o Pedido e a Resposta transcritos abaixo e preencher o formulário de decisão conforme os critérios definidos.
 
+      CRÍTICO: Você deve repetir todo o formulário base em sua resposta, marcando com um "X" a alternativa correta dentro dos parênteses "( )". Justifique apenas quando necessário no campo "Detalhamento". Mantenha inalteradas as seções que não se aplicam.
+
       Formulário Base:
       ---
       ${formularioBase}

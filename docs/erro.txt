@@ -1,34 +1,83 @@
-23:48:24.347 Running build in Washington, D.C., USA (East) – iad1
-23:48:24.348 Build machine configuration: 2 cores, 8 GB
-23:48:24.365 Cloning github.com/GuCastroMiranda/Analisador-Resposta-LAI (Branch: master, Commit: 0e85d83)
-23:48:24.373 Skipping build cache, deployment was triggered without cache.
-23:48:27.547 Cloning completed: 3.182s
-23:48:32.045 Running "vercel build"
-23:48:32.719 Vercel CLI 48.0.2
-23:48:33.392 Running "install" command: `npm i --force`...
-23:48:33.677 npm warn using --force Recommended protections disabled.
-23:48:35.655 
-23:48:35.655 added 7 packages, removed 1 package, changed 2 packages, and audited 448 packages in 2s
-23:48:35.656 
-23:48:35.656 99 packages are looking for funding
-23:48:35.656   run `npm fund` for details
-23:48:35.657 
-23:48:35.657 found 0 vulnerabilities
-23:48:35.801 Running "npm run build"
-23:48:35.915 
-23:48:35.915 > workshop@1.0.0 build
-23:48:35.915 > npm run build -w web
-23:48:35.915 
-23:48:36.048 
-23:48:36.049 > web@0.0.0 build
-23:48:36.049 > vite build
-23:48:36.049 
-23:48:36.055 sh: line 1: /vercel/path1/node_modules/.bin/vite: Permission denied
-23:48:36.061 npm error Lifecycle script `build` failed with error:
-23:48:36.061 npm error code 126
-23:48:36.061 npm error path /vercel/path1/apps/web
-23:48:36.061 npm error workspace web@0.0.0
-23:48:36.062 npm error location /vercel/path1/apps/web
-23:48:36.062 npm error command failed
-23:48:36.062 npm error command sh -c vite build
-23:48:36.075 Error: Command "npm run build" exited with 126
+###COMO ELA RESPONDEU
+
+**Formulário de Análise**
+
+1. **Tipo de Decisão:** ( ) Acesso Concedido (X) Acesso Parcialmente Concedido
+
+2. **Especificação da Decisão:**
+
+2.3 Caso de Acesso Parcialmente Concedido: (X) Parte da informação inexistente
+
+
+3. **Detalhamento:** O pedido solicitou registros de entrada e saída de pessoas no MEC entre 1º de janeiro de 2023 e 2 de junho de 2025, incluindo nome, data, hora de entrada e saída, e local de visita. A resposta forneceu planilhas com dados de entrada, mas informou que o sistema de controle de acesso não registra o horário exato de saída dos visitantes, apenas o horário de fechamento do expediente do agente responsável pelo cadastro. Portanto, a informação sobre o horário de saída é parcialmente inexistente.  A resposta atendeu parcialmente à solicitação, fornecendo os dados disponíveis.
+
+4. **Área responsável pela resposta:** Subsecretaria de Gestão Administrativa - SGA
+
+5. **Tag:** SGA
+
+6. **Autoridade para recurso de 1ª instância:** Diretor da área responsável pela SGA
+
+7. **Restrição de Conteúdo:** ( ) Sim ( ) Não
+
+
+**Observações:**  A resposta, embora parcialmente negativa, demonstra boa-fé e esforço para atender à solicitação na medida do possível, informando a limitação do sistema.  O fato de parte da informação (horário de saída) ser inexistente justifica o acesso parcialmente concedido.  A resposta deveria, contudo, indicar com clareza quais dados foram omitidos e por que, para maior transparência.  Recomenda-se a atualização do sistema de controle de acesso para garantir o registro completo das informações.
+
+
+
+###FORMULÁRIO COMPLETO:
+
+Formulário de Análise
+1. Tipo de Decisão:
+( ) Acesso Concedido
+( ) Acesso Negado
+( ) Acesso Parcialmente Concedido
+( ) Informação Inexistente
+( ) Não se trata de solicitação de informação
+( ) Órgão não tem competência para responder sobre o assunto
+( ) Pergunta duplicada/repetida
+2. Especificação da Decisão:
+👉 Preencher apenas a seção correspondente:
+2.1 Caso de Acesso Concedido:
+( ) Comunicada necessidade de pagamento de custos de postagem e/ou reprodução
+( ) Concedido acesso a sistema corporativo para consulta da informação
+( ) Data, hora e local para consulta agendados
+( ) Informações enviadas pelo correio
+( ) Informações enviadas por e-mail
+( ) Orientação sobre como encontrar a informação solicitada na internet ou em publicações existentes
+( ) Resposta solicitada inserida no Fala.BR
+2.2 Caso de Acesso Negado:
+( ) Dados pessoais
+( ) Informação sigilosa classificada conforme a Lei 12.527/2011
+( ) Informação sigilosa de acordo com legislação específica
+( ) Pedido desproporcional ou desarrazoado
+( ) Pedido exige tratamento adicional de dados
+( ) Pedido genérico
+( ) Pedido incompreensível
+( ) Processo decisório em curso
+2.3 Caso de Acesso Parcialmente Concedido:
+( ) Parte da informação contém dados pessoais
+( ) Parte da informação demandará mais tempo para produção
+( ) Parte da informação é de competência de outro órgão/entidade
+( ) Parte da informação é sigilosa de acordo com legislação específica
+( ) Parte da informação é sigilosa e classificada conforme a Lei 12.527/2011
+( ) Parte da informação inexistente
+( ) Parte do pedido é desproporcional ou desarrazoado
+( ) Parte do pedido é genérico
+( ) Parte do pedido é incompreensível
+( ) Parte do pedido exige tratamento adicional de dados
+( ) Processo decisório em curso
+3. Detalhamento (quando aplicável):
+👉 Se for negado ou parcialmente concedido, justificar aqui a motivação, mencionar base legal ou situação fática (ex: documento não existe, sigilo legal, processo em curso etc.).
+4. Área responsável pela resposta:
+5. Tag: Sigla da unidade organizacional responsável pela resposta
+6. Autoridade para recurso de 1ª instância:
+Diretor da área responsável
+7. Restrição de Conteúdo:
+Este pedido ou sua resposta contém informações sujeitas à restrição de acesso, conforme a Lei 12.527/2011?
+( ) Sim
+( ) Não
+
+
+
+#####OBSERVAÇÃO:
+A ia deverá repetir todo o formulário, apenas marcando X na alternativa correta e justificando, quando necessário, Caso contrário, deverá deixar em branco e apenas repetir o que não for alterado
