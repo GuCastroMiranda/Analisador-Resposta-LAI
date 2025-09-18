@@ -13,5 +13,15 @@
         "outputDirectory": "dist"
       }
     }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/apps/api/src/index.ts"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/apps/web/dist/$1"
+    }
   ]
 }
